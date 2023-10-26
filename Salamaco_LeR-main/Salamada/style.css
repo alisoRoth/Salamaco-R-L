@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-image: url(img/Combo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+body {
+    background-color: black;
+    color: yellow;
+}
+
+.container{
+    height: 120vh;
+    display:grid;
+    grid-template-columns: 50% 50% ;
+    text-decoration: none;
+}
+
+.container_botao{
+    background-color: red;
+    border-radius: 2px;
+    padding: 1em;
+    color: white;
+    display: block;
+    border: 2px solid black;
+    text-decoration: none;
+}
+.botao_secundario{
+    background-color: yellow;
+    border:2px solid black;
+    text-decoration: none;
+}
+.container_aviso{
+font-size: 12px;
+}
+
